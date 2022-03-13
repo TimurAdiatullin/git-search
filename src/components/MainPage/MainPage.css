@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+.page__welc {
+   height: 80.1vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Inter;
+   font-size: 40px;
+   line-height: 48px;
+   color: #ffffff;
+   margin: 0 auto;
+}
+.page {
+   display: flex;
+   justify-content: center;
+   padding: 93px 0 401px 0;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 40px;
+   line-height: 48px;
+   color: #ffffff;
+   max-width: 936px;
+   margin: 0 auto;
+}
+.page__conteiner {
+   max-width: 936px;
+   margin: 0 auto;
+   display: flex;
+}
+.page__left {
+}
+.page__img {
+   width: 296px;
+   height: 296px;
+   border-radius: 50%;
+   margin: 0 0 36px 0;
+}
+.page__login {
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 31px;
+   margin: 0 0 9px 0;
+   color: #c9d1d9;
+}
+.page__nick {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #687078;
+   margin: 0 0 20px 0;
+}
+.page__btn {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #c4ccd4;
+   background: #21262d;
+   border: 1px solid #363b42;
+   box-sizing: border-box;
+   border-radius: 6px;
+   padding: 8px 126px;
+}
+.page__right {
+   width: 616px;
+   margin: 0 0 0 24px;
+}
+.page_repos {
+   padding: 25px 10px;
+   border-bottom: 1px solid #21262d;
+}
+.repos__names {
+   display: flex;
+   align-items: center;
+}
+a.repos__name {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   color: #4e9df8;
+   margin: 0 11px 0 0;
+}
+.repos__status {
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 8px;
+   color: #8d9192;
+   background: #0d1117;
+   border: 1px solid #30363d;
+   box-sizing: border-box;
+   border-radius: 5.5px;
+   padding: 2px 4px;
+}
+.repos__appireans {
+   display: flex;
+   margin: 17px 0 0 0;
+}
+.repos__language {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #8d9192;
+   margin: 0 24px 0 0;
+}
+.repos__data {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #8d9192;
+}
+.page__navlinks {
+   border-bottom: 1px solid #21262d;
+	display: flex;
+	align-items: center;
+}
+.page__link_active {
+}
+.page__link_repos {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #c9d1d9;
+   padding: 0 110px 6px 110px;
+	position: relative;
+}
+.page__link_follow {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #c9d1d9;
+   padding: 0 108px 6px 108px;
+	position: relative;
+	top: 2px;
+}
+.page__link_active {
+}
+.page__link_active_repos {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #c9d1d9;
+   border-bottom: 2px solid #f78166;
+	padding: 0 110px 4px 110px;
+}
+.page__link_active_follow {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #c9d1d9;
+   padding: 0 108px 4px 108px;
+   border-bottom: 2px solid #f78166;
+}
+.page__link_repos::before {
+   content: url("./img/repos.svg");
+   display: inline-block;
+   position: relative;
+   top: 3px;
+   right: 9px;
+	
+}
+.page__link_follow::before {
+   content: url("./img/follow.svg");
+   display: inline-block;
+   position: relative;
+   right: 9px;
+}

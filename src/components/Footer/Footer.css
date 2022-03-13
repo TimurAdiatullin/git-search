@@ -1,0 +1,20 @@
+.footer{
+	background: #161B22;
+	color: #fff;
+	font-family: Inter;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 34px 0;
+}
+.footer__content{
+	display: flex;
+	justify-content: space-between;
+}
+._conteiner{
+	margin: 0 auto;
+	max-width: 936px;
+}
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}

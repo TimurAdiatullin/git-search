@@ -1,0 +1,11 @@
+.page{
+	display: flex;
+justify-content: center;
+padding: 320px 0 401px 0;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 48px;
+	color: #FFFFFF;
+}

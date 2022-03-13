@@ -1,0 +1,45 @@
+.header{
+	background: #161B22;
+	padding: 20px 0;
+}
+.header__row{
+	display: flex;
+	align-items: center;
+}
+._conteiner{
+	margin: 0 auto;
+	max-width: 936px;
+}
+.header__input{
+	position: relative;
+	width: 817.56px;
+	margin: 0 0 0 20px;
+	padding: 16px;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 18px;
+	background: #000;
+	border: 1px solid #606060;
+	box-sizing: border-box;
+	border-radius: 3px;;
+}
+
+.header__input::-webkit-input-placeholder{
+	font-family: Inter;
+	color: #FFFFFF;
+	font-size: 15px;
+line-height: 18px;
+}
+.header__btn{
+	background: #000000;
+	border: 1px solid #606060;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-family: Inter;
+	font-size: 16px;
+	line-height: 19px;
+	color: #666666;
+	position: relative;
+	padding: 5px 12px 6px;
+	right: 40px;
+}
